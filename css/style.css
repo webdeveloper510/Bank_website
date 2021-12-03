@@ -599,7 +599,7 @@ a.hover-light-text:hover, a.hover-light-text:focus {
 }
 
 .box-counter-divider::after {
-	content: '';
+	content: '>';
 	display: inline-block;
 	width: 80px;
 	height: 2px;
@@ -2395,7 +2395,7 @@ textarea.form-input {
 
 .radio .radio-custom-dummy::after,
 .radio-inline .radio-custom-dummy::after {
-	content: '';
+	content: '>';
 	top: 3px;
 	right: 3px;
 	bottom: 3px;
@@ -4070,7 +4070,7 @@ blockquote .position {
 .breadcrumbs-custom > li:not(:last-child):after {
 	padding: 0 16px 0 10px;
 	font-family: "Material Design Icons";
-	content: "\f238";
+	content: "/";
 	color: rgba(255, 255, 255, 0.4);
 }
 
@@ -6033,7 +6033,7 @@ html [class*='section-'].section-bottom-0 {
 
 @media (min-width: 1200px) {
 	.custom-image-section .image-item {
-		bottom: calc(100% + 70px);
+		bottom: calc(100% + 15px);
 	}
 }
 
@@ -14529,4 +14529,7 @@ div#nav-tab a {
 
 ul.contact-box {
     padding-top: 20px;
+}
+.container.context-dark.breadcrumb-wrapper h1 {
+    margin-top: 5%;
 }
